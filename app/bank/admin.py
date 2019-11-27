@@ -1,3 +1,4 @@
 from django.contrib import admin
+from bank.models import Branch, Customer
 
-# Register your models here.
+admin.site.register((Branch, Customer))
